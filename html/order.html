@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV-ORDER</title>
+    <link href="../CSS/order.css" rel="stylesheet">
+</head>
+    <body>
+        <div class="container">
+            <h1>Заказать дизайн</h1>
+            <p>Оставьте свои данные и мы вам перезвоним</p>
+            <div class="data">
+                <input type="text" placeholder="Ваше имя" class="inp"><br>
+                <input id="phone" oninput="onlynumbers(this)" type="text" onkeyup="inputFill(this)" placeholder="+445288971703" class="inp"><br>
+                <button type="button" onclick="location.href='../index.html'">На главную</button>
+                <button onclick="myFunction()" id="submitBtn" disabled>Отправить</button>
+            </div>
+        </div>
+    <script src="..//assets/js/script.js"></script>
+</body>
+</html>
